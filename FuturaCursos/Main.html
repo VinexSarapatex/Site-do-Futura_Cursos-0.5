@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futura Cursos</title>
+    <link rel="shortcut icon" href="images/logoabanavegador.ico" type="image/x-icon">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="Main.css">
+    
+</head>
+<body>
+
+        <!-- header do site -->
+        <header>
+
+            <div class="lateralbar">
+                <div style="display: flex; flex-direction: column; padding-top: 90px; padding-left: 15px; gap: 40px;">
+                    <a class="link" href="Main.html"  style="text-decoration: underline;">Ínicio</a>
+                    <a class="link" href="Noticias.html">Noticias</a>
+                    <a class="link">Sobre</a>
+                    <a class="link">Contato</a>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="containerShowMore" onclick="showMore()">
+                    <img src="images/showMore.png" class="showMore">
+                </div>
+
+
+                <div class="logo">
+                    <img src="images/Logo.png" style="width: 130px;">
+                    <div class="redes">
+                        <a href="https://www.instagram.com/futura.cursos/" class="linkinstagram">
+                            <img src="images/Instagram.png" class="instagram">
+                        </a>
+                        <a href="https://www.facebook.com/futuracursospe" class="linkfacebook">
+                               <img src="images/Facebook.png" class="facebook">
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="links">
+                     <a class="link" href="Main.html" style="text-decoration: underline;">Ínicio</a>
+                     <a class="link" href="Noticias.html">Noticias</a>
+                     <a class="link">Sobre</a>
+                     <a class="link">Contato</a>
+                </div>
+                
+            </div>
+        </header>
+
+
+    <!-- Pagina -->
+    <div id="main">
+        <div class="carousel1">
+            <div class="slides">
+                <div class="banner" alt="Slide 1">
+                    <img src="images/bannerFutura.jpg" style="width: 100%;">
+                </div>
+                <div class="banner" alt="Slide 2">
+                    <img src="images/bannerFutura2.JPG" style="width: 100%;">
+                    <a href="localização.html">
+                        <button class="buttonbanner">Localização</button>
+                    </a>
+                </div>
+                <div class="banner" alt="Slide 3">
+                    <img src="images/bannerFutura3.JPG" style="width: 100%;">
+                    <a href="contato.html">
+                        <button class="buttonbanner" style="left: 68%;">Contato</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+
+        <h1 class="titles" style="padding-top: 80px;">Confira nossos principais cursos!</h1>
+
+
+        <!-- Carrosel -->
+        <div id="carouselExample" class="carousel slide" style="padding-top: 50px; width: 100%; height: 300px;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="cursoscontainer">
+                    <div class="cursocontainer">
+                        <a href="cursos" style="text-decoration: none;">
+                            <div class="cursoimg" style="background-image: url(images/Informatica.png);"></div>
+                            <h2 class="subtitles">Informatica essencial</h2>
+                        </a>
+                    </div>
+                    <div class="cursocontainer">
+                        <a href="cursos" style="text-decoration: none;">
+                            <div class="cursoimg" style="background-image: url(images/Informaticakids.jpeg);"></div>
+                            <h2 class="subtitles">Informatica kids</h2>
+                        </a>
+                    </div>
+                    <div class="cursocontainer">
+                        <a href="cursos" style="text-decoration: none;">
+                            <div class="cursoimg" style="background-image: url(images/DesignGrafico.jpeg);"></div>
+                            <h2 class="subtitles">Design gráfico</h2>
+                        </a>
+                    </div>
+                    <div class="cursocontainer">
+                        <a href="cursos" style="text-decoration: none;">
+                            <div class="cursoimg" style="background-image: url(images/English.jpg);"></div>
+                            <h2 class="subtitles">English for everyone</h2>
+                        </a>
+                    </div>
+                </div>
+
+              </div>
+              <div class="carousel-item">
+                <div class="cursoscontainer">
+                    <div class="cursocontainer">
+                        <a href="cursos" style="text-decoration: none;">
+                            <div class="cursoimg"></div>
+                            <h2 class="subtitles">Gestão em TI</h2>
+                        </a>
+                    </div>
+                    <div class="cursocontainer">
+                        <a href="cursos" style="text-decoration: none;">
+                            <div class="cursoimg"></div>
+                            <h2 class="subtitles">Auxiliar Administrativo</h2>
+                        </a>
+                    </div>
+                    <div class="cursocontainer">
+                        <a href="cursos" style="text-decoration: none;">
+                            <div class="cursoimg"></div>
+                            <h2 class="subtitles">Auxiliar odontológico</h2>
+                        </a>
+                    </div>
+                    <div class="cursocontainer">
+                        <a href="cursos" style="text-decoration: none;">
+                            <div class="cursoimg"></div>
+                            <h2 class="subtitles">Atendente de farmácia</h2>
+                        </a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="cursoscontainer">
+                    <div class="cursocontainer">
+                        <a href="cursos" style="text-decoration: none;">
+                            <div class="cursoimg"></div>
+                            <h2 class="subtitles">Operador de caixa</h2>
+                        </a>
+                    </div>
+                    <div class="cursocontainer">
+                        <a href="cursos" style="text-decoration: none;">
+                            <div class="cursoimg"></div>
+                            <h2 class="subtitles">Excel expert</h2>
+                        </a>
+                    </div>
+                    <div class="cursocontainer">
+                        <a href="cursos" style="text-decoration: none;">
+                            <div class="cursoimg"></div>
+                            <h2 class="subtitles">Excel essencial</h2>
+                        </a>
+                    </div>
+                    <div class="cursocontainer" style="display: flex; justify-content: center;">
+                        <div style="display: flex; justify-content: center; align-items: center; cursor: pointer; ">
+                            <a href="cursos" style="text-decoration: none;">
+                                <img src="images/SaberMais.png" style="height: 190px;">
+                                <h2 class="subtitles">Saber Mais</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" style="opacity: 100%; border-radius: 10px; background-color: rgb(77, 107, 190); height: 50px; width: 50px; margin-top: 150px; margin-left: 50px;">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" style="opacity: 100%; border-radius: 10px; background-color: rgb(77, 107, 190); height: 50px; width: 50px; margin-top: 150px; margin-right: 50px;">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- CarroselParaCelular -->
+         <div class="cursoscontainerC">
+
+            <div class="cursocontainerC">
+                <a href="cursos" style="text-decoration: none;">
+                    <div class="cursoimg" style="background-image: url(images/Informatica.png);"></div>
+                    <h2 class="subtitles">Informatica essencial</h2>
+                </a>
+            </div>
+            <div class="cursocontainerC">
+                <a href="cursos" style="text-decoration: none;">
+                    <div class="cursoimg" style="background-image: url(images/Informaticakids.jpeg);"></div>
+                    <h2 class="subtitles">Informatica kids</h2>
+                </a>
+            </div>
+            <div class="cursocontainerC">
+                <a href="cursos" style="text-decoration: none;">
+                    <div class="cursoimg" style="background-image: url(images/DesignGrafico.jpeg);"></div>
+                    <h2 class="subtitles">Design gráfico</h2>
+                </a>
+            </div>
+            <div class="cursocontainerC">
+                <a href="cursos" style="text-decoration: none;">
+                    <div class="cursoimg" style="background-image: url(images/English.jpg);"></div>
+                    <h2 class="subtitles">English for everyone</h2>
+                </a>
+            </div>
+
+             <div class="cursocontainerC">
+                 <a href="cursos" style="text-decoration: none;">
+                     <div class="cursoimg"></div>
+                     <h2 class="subtitles">Gestão em TI</h2>
+                 </a>
+             </div>
+             <div class="cursocontainerC">
+                 <a href="cursos" style="text-decoration: none;">
+                     <div class="cursoimg"></div>
+                     <h2 class="subtitles">Auxiliar Administrativo</h2>
+                 </a>
+             </div>
+             <div class="cursocontainerC">
+                 <a href="cursos" style="text-decoration: none;">
+                     <div class="cursoimg"></div>
+                     <h2 class="subtitles">Auxiliar odontológico</h2>
+                 </a>
+             </div>
+             <div class="cursocontainerC">
+                 <a href="cursos" style="text-decoration: none;">
+                     <div class="cursoimg"></div>
+                     <h2 class="subtitles">Atendente de farmácia</h2>
+                 </a>
+             </div>
+             <div class="cursocontainerC">
+                <a href="cursos" style="text-decoration: none;">
+                    <div class="cursoimg"></div>
+                    <h2 class="subtitles">Operador de caixa</h2>
+                </a>
+            </div>
+            <div class="cursocontainerC">
+                <a href="cursos" style="text-decoration: none;">
+                    <div class="cursoimg"></div>
+                    <h2 class="subtitles">Excel expert</h2>
+                </a>
+            </div>
+            <div class="cursocontainerC">
+                <a href="cursos" style="text-decoration: none;">
+                    <div class="cursoimg"></div>
+                    <h2 class="subtitles">Excel essencial</h2>
+                </a>
+            </div>
+            <div class="cursocontainerC" style="display: flex; justify-content: center;">
+                <div style="display: flex; justify-content: center; align-items: center; cursor: pointer; ">
+                    <a href="cursos" style="text-decoration: none;">
+                        <img src="images/SaberMais.png" style="height: 70px;">
+                        <h2 class="subtitles">Saber Mais</h2>
+                    </a>
+                </div>
+            </div>
+         </div>
+
+         <div class="line" style="margin-top: 100px; margin-bottom: 50px;"></div>
+         <h1 class="titles">Entre em Contato Conosco!</h1>
+  
+    <div style="width: 100%;display: flex; justify-content: space-around;">
+
+        
+        <div style="display: flex;margin-top: 50px; gap: 20px; flex-direction: column;">
+            <h2>Telefone: (81) 99828-8205</h2>
+            <div>
+                <h2>Endereço:</h2>
+                <h3> R. Quatro, 13 - Curado IV,<br> Jaboatão dos Guararapes - PE, 54270-030</h3>
+            </div>
+
+            <div class="mapBox">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15801.25399986913!2d-35.0028081307495!3d-8.069471871285591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1df01e16aaab%3A0xdd9908fb69552b66!2sFutura%20Cursos!5e0!3m2!1spt-BR!2sbr!4v1729859142456!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        
+
+        <section>
+            <h2>Email</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Digite seu email" required>
+                <label>Curso</label>
+                <select name="name" required>
+                    <option value="Nenhum">Nenhum</option>
+                    <option value="Informatica essencial">Informatica essencial</option>
+                    <option value="Informatica kids">Informatica kids</option>
+                    <option value="Design Grafico">Design Grafico</option>
+                    <option value="English for everyone">English for everyone</option>
+                    <option value="gestão em TI">gestão em TI</option>
+                    <option value="Auxiliar administrativo">Auxiliar administrativo</option>
+                    <option value="Auxiliar odontológico">Auxiliar odontológico</option>
+                    <option value="Atendente de farmácia">Atendente de farmácia</option>
+                    <option value="Operador de caixa">Operador de caixa</option>
+                    <option value="Excel expert">Excel expert</option>
+                    <option value="Excel essencial">Excel essencial</option>
+                </select>
+
+                <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+
+                <input type="hidden" name="accessKey" value="381aa9a1-88be-4c4c-b4d4-3351a0b26ab8">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Obrigado.html">
+            </form>
+        </section>
+
+    </div>
+
+    <div class="line" style="margin-top: 100px; margin-bottom: 50px;"></div>
+
+    <div style="width: 100%; flex-direction: column;;display: flex; justify-content: center; align-items: center;">
+        <h1 class="titles">Confira alguns comentarios de nossos estudantes!</h1>
+        <div class="comentario">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+
+                  </button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+
+                  </button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+
+                  </button>
+                </div>
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active" style="width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                    <div style="display: flex; margin: 20px; gap: 20px; justify-content: left;">
+                        <div style="border-radius: 50%; width: 50px; height: 50px;background-color: rgb(255, 255, 255);"></div>
+                        <h2>Vinicius Gabriel</h2>
+                    </div>
+                    <div class="caixaComentario">
+                        <p class="texts">O futura cursos é o melhor ajsbdasdbaksjdaksd</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <div>
+                        <h1></h1>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+  </main>
+  
+  
+    <!-- Js -->
+    <script src="Main.js"></script>
+
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
